@@ -603,6 +603,7 @@ img {
   height: 581px;
   background-color: #fff;
   position: relative;
+  padding: 40px;
 }
 
 .modal-button {

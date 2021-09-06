@@ -117,13 +117,13 @@ a {
   content: '';
   position: absolute;
   width: auto;
-  bottom: 0;
+  bottom: 578px;
   display: block;
   width: 53px;
   height: 4px;
   background: #2196f3;
   border-radius: 2px;
-  transform: translateY(-278px);
+  /* transform: translateY(-488px); */
 }
 .portfolio::after {
   width: 84.17px;

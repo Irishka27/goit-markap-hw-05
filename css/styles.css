@@ -113,20 +113,16 @@ a {
   letter-spacing: 0.02em;
   position: relative;
 }
-.nav-link-current::after {
+.current::after {
   content: '';
   position: absolute;
   width: auto;
-  bottom: 578px;
+  bottom: -31px;
   display: block;
-  width: 53px;
+  width: 100%;
   height: 4px;
   background: #2196f3;
   border-radius: 2px;
-  /* transform: translateY(-488px); */
-}
-.portfolio::after {
-  width: 84.17px;
 }
 
 /* Hero */
@@ -436,6 +432,7 @@ img {
   justify-content: center;
   align-items: center;
   bottom: -100%;
+  padding: 63px 24px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:hover .overlay {
@@ -449,7 +446,7 @@ img {
   line-height: 28px;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 
 /* filter */
